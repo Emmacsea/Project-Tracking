@@ -1,0 +1,140 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: hsl(0,0%,100%);
+}
+
+.container {
+    width: 1000px;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    margin-bottom: 5em;
+}
+
+header nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 25em;
+    font-size: 1.2em;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 2em;
+}
+
+nav li a {
+     text-decoration: none;
+     color:  hsl(230, 29%, 20%);
+}
+
+header span a {
+    font-size: 1.4em;
+    color:hsl(231, 7%, 65%);
+    text-decoration: none;
+    padding-left: 1.5em;
+}
+
+.container .body {
+    display:  flex;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    margin-top: 2.2em;
+}
+
+.body .left {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.left .new {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+    text-transform: uppercase;
+}
+
+.new .btnnew {
+    outline: none;
+    border: none;
+    background: hsl(230, 29%, 20%);
+    border-radius: 1.2em;
+    color: hsl(0, 0%, 100%);
+    font-size: 1em;
+    font-weight: 500;
+    padding: .5em 1em;
+    cursor: pointer;
+}
+
+.new p {
+    color: hsl(231, 7%, 65%);
+    letter-spacing: .2em;
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: .42em;
+}
+
+.left h2 {
+    color: hsl(230, 29%, 20%);
+    font-size: 1.4em;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin: .6em 0 .5em;
+}
+
+.left p {
+    color: hsl(231, 7%, 65%);
+    align-self: flex-start;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.left .button {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    align-self: flex-start;
+    margin: 2em 0 1em;
+}
+
+.button .btn {
+    outline: none;
+    border: none;
+    border-radius: .5em;
+    padding: .8em 1.3em;
+    background: hsl(0, 100%, 68%);
+    color: hsl(0, 0%, 100%);
+    font-size: .8em;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.button .bt {
+    outline: none;
+    border: none;
+    font-size: 1em;
+    font-weight: 600;
+    background: transparent;
+    color: hsl(231, 7%, 65%);
+    letter-spacing: .3em;
+}
+
